@@ -15,7 +15,7 @@ variable "instance_type" {
 
 variable "security_group" {
   description = "Name of security group"
-  default     = "MyNewSecurityGroup"
+  default     = "My-NewSecurityGroup"
 }
 
 variable "tag_name" {
@@ -25,5 +25,5 @@ variable "tag_name" {
 
 variable "ami_id" {
   description = "AMI for Ubuntu Ec2 instance"
-  default     = "ami-05803413c51f242b7"
+  default     = "ami-002068ed284fb165b"
 }
